@@ -5,7 +5,7 @@
     --background-primary: #141416;
     --background-primary-aux: #1A1A23;
     --background-secundary: #e599e1;
-    --background-primary: #141416;
+    --background-tertiary: #BC30B5;
     --background-accent: #0C56E9;
     --gradient-primary: linear-gradient(135deg, #0C56E9 0%, #BC30B5 50%);
     --accent-color: #333;
@@ -14,8 +14,11 @@
 
     --head1: 3.5rem;
     --head4: 1.5rem;
+    --body1: 1.125rem;
 
-    --grid-container: 70.5rem; 
+    --grid-container: 90rem; 
+    --pad-container: 4rem 0;
+    --pad-section: 0 10rem;
 }
 
 *{

@@ -1,0 +1,37 @@
+.hero{
+  max-width: var(--grid-container);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: var(--pad-container);
+}
+
+.hero .titleHero span{
+  font-size: var(--head1);
+  font-weight: 400;
+  color: var(--background-secundary);
+}
+
+.hero .titleHero h1{
+  font-size: var(--head1);
+  font-weight: 400;
+  color: var(--neutral-09)
+}
+
+.hero .titleHero p{
+  margin-top: 1rem;
+  font-size: var(--body1);
+  color: var(--neutral-09);
+}
+
+.hero .titleHero button{
+  margin-top: 2rem;
+}
+
+.hero img{
+  min-width: 30rem;
+  width: 100%;
+}
+

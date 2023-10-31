@@ -1,9 +1,10 @@
 import React from 'react';
 import './module.css';
 
-const ButtonPrimary = () =>{
+const ButtonPrimary = ({btnTitle}) =>{
+
   return(
-    <button className="btnPrimary">Oi SOu botao</button>
+    <button className="btnPrimary">{btnTitle}</button>
   );
 };
 

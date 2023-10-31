@@ -7,12 +7,12 @@ const Header = () =>{
   return(
     <header className="header">
       <div className="links">
-        <LinksPage linkName="dener" />
-        <LinksPage />
-        <LinksPage />
-        <LinksPage />
+        <LinksPage linkName="Produtos" />
+        <LinksPage linkName="Soluções"/>
+        <LinksPage linkName="Clientes" />
+        <LinksPage linkName="Contato" />
       </div>
-      <ButtonPrimary />
+      <ButtonPrimary btnTitle="Criar conta" />
     </header>
   );
 };
