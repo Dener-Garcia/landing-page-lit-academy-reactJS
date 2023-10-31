@@ -1,9 +1,12 @@
 import React from 'react';
 import './module.css';
 
-const LinksPage = () => {
+const LinksPage = (props) => {
+
+  const {linkName} = props;
+
   return(
-    <a href="#" className="linkPrimary">Link1</a>
+    <a href="#" className="linkPrimary">{linkName}</a>
   );
 };
 

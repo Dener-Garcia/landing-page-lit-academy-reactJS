@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './style.module.css';
+import './module.css';
 
 const ButtonPrimary = () =>{
   return(
-    <button className={styles.btnPrimary}>Oi SOu botao</button>
+    <button className="btnPrimary">Oi SOu botao</button>
   );
 };
 

@@ -1,0 +1,14 @@
+.header{
+  max-width: var(--grid-container);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: red;
+}
+
+.links{
+  display: flex;
+  gap: 1.125rem;
+}

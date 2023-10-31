@@ -1,14 +1,12 @@
-
-import ButtonPrimary from './components/design-system/Button-primary/ButtonPrimary';
-import LinksPage from './components/design-system/LinksPage/LinksPage';
+import React from 'react';
+import Header from './components/Header/Header';
 
 
 function App() {
 
   return (
     <>
-      <ButtonPrimary></ButtonPrimary>
-      <LinksPage></LinksPage>
+      <Header />
     </>
   );
 }
