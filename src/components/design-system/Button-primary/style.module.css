@@ -1,5 +1,14 @@
-.teste{
+.btnPrimary{
   padding: 1rem 2rem;
   border-radius: 0.5rem;
-  background-color: blue;
+  font-size: var(--head4);
+  font-weight: 500;
+  color: var(--neutral-09);
+  background:var(--gradient-primary);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btnPrimary:hover{
+  background: var(--background-accent);
 }

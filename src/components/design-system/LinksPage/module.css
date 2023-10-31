@@ -1,0 +1,13 @@
+.linkPrimary{
+    border-radius: 0.5rem;
+    font-size: var(--head4);
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--neutral-09);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .linkPrimary:hover{
+    color: var(--background-accent);
+  }

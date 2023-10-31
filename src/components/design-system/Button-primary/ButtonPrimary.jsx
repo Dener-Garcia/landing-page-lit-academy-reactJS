@@ -3,7 +3,7 @@ import styles from './style.module.css';
 
 const ButtonPrimary = () =>{
   return(
-    <button className={styles.teste}>Oi SOu botao</button>
+    <button className={styles.btnPrimary}>Oi SOu botao</button>
   );
 };
 
