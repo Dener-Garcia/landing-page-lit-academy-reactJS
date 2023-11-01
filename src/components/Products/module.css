@@ -16,7 +16,7 @@
   width: 35rem;
   height: 35rem;
   border-radius: 37rem;
-  filter: blur(18rem); 
+  filter: blur(14rem); 
   background: var(--background-tertiary);
   z-index: -2;
 }
