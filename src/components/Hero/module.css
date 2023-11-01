@@ -8,6 +8,10 @@
   padding: var(--pad-container);
 }
 
+.hero .titleHero{
+  width: 100%;
+}
+
 .hero .titleHero span{
   font-size: var(--head1);
   font-weight: 400;
