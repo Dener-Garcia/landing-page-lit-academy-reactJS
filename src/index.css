@@ -20,7 +20,7 @@
     --body1: 1.125rem;
 
     --grid-container: 90rem; 
-    --pad-container: 4rem 0;
+    --pad-container: 4rem 1rem;
     --pad-section: 0 10rem;
 }
 

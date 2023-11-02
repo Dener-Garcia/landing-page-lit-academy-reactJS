@@ -9,8 +9,8 @@
 }
 
 .tools .bot-img{
+  width: 100%;
   padding: 3rem 5rem;
-  margin-left: 10rem;
 }
 
 .tools .bot-work{
@@ -37,6 +37,6 @@
 }
 
 .tools .bot-work img{
-  width: ;
+  width: 80%;
   margin-top: 2rem;
 }
