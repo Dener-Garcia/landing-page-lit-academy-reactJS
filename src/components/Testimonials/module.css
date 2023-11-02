@@ -1,0 +1,27 @@
+.testimonials{
+  max-width: var(--grid-container);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: var(--pad-container);
+}
+
+.testimonials h3{
+  font-size: var(--head3);
+  color: var(--neutral-09);
+}
+
+.testimonials > p{
+  width: 30%;
+  margin-top: 1rem;
+  color: var(--neutral-08);
+
+}
+
+.testimonyCards{
+  display: flex;
+  margin-top: 7.5rem;
+  gap: 2rem;
+  overflow-x: scroll;
+}

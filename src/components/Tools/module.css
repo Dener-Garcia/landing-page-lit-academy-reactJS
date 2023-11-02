@@ -1,0 +1,42 @@
+.tools{
+  max-width: var(--grid-container);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: var(--pad-container);
+  gap: 4rem;
+}
+
+.tools .bot-img{
+  padding: 3rem 5rem;
+  margin-left: 10rem;
+}
+
+.tools .bot-work{
+  margin: auto;
+  width: 100%;
+}
+
+.tools .bot-work h3{
+  font-size: var(--head2);
+  font-weight: 500;
+  color: var(--neutral-09);
+}
+
+.tools .bot-work span{
+  font-weight: 700;
+  color: var(--background-tertiary);
+}
+
+.tools .bot-work p{
+  width: 80%;
+  margin-top: 1rem;
+  font-size: var(--body1);
+  color: var(--neutral-08);
+}
+
+.tools .bot-work img{
+  width: ;
+  margin-top: 2rem;
+}

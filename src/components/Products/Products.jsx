@@ -5,6 +5,7 @@ import imgCard1 from "../../../public/assets/escolha-bot.png"
 import imgCard2 from "../../../public/assets/treine-seu-bot.png"
 import imgCard3 from "../../../public/assets/integracao.png"
 import imgCard4 from "../../../public/assets/usando-bot.png"
+import ButtonPrimary from "../design-system/Button-primary/ButtonPrimary";
 
 const Products = () =>{
   return(
@@ -33,6 +34,7 @@ const Products = () =>{
       titleCard={"Usando seu bot"}
       descriptionCard={"Tudo pronto, agora é só ir acompanhando e ficar de olhos nas notificações que sue bot vai te mandar."} />
       </div>
+      <ButtonPrimary btnTitle={"Quero testar grátis"} />
     </section>
   )
 }

@@ -37,7 +37,7 @@
   margin-top: 1rem;
   text-align: center;
   font-size: var(--body1);
-  color: var(--neutral-09)
+  color: var(--neutral-08)
 }
 
 .cards{
@@ -45,4 +45,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.products button{
+  margin-top: 2.5rem; 
 }
