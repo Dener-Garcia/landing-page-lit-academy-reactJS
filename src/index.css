@@ -8,11 +8,13 @@
     --background-tertiary: #BC30B5;
     --background-accent: #0C56E9;
     --gradient-primary: linear-gradient(135deg, #0C56E9 0%, #BC30B5 50%);
+    --gradient-primary-hover: linear-gradient(#0C56E9, #0C56E9);
     --accent-color: #333;
 
     --neutral-09: #f4f4f5;
     --neutral-08: #C9C9CF;
     --neutral-07: #9E9EA8;
+    --neutral-06: #3B3B40;
 
     --head1: 3.5rem;
     --head2: 2.5rem;   
