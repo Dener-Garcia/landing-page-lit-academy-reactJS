@@ -6,7 +6,7 @@ const LinksPage = (props) => {
   const {linkName, linkAnchor} = props;
 
   return(
-    <a href={linkAnchor} className="linkPrimary">{linkName}</a>
+    <a href={linkAnchor} className="linkPrimary">{linkName} </a>
   );
 };
 

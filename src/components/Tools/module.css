@@ -40,3 +40,18 @@
   width: 80%;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 960px) {
+  .tools{
+    flex-direction: column;
+  }
+
+  .tools .bot-img{
+    width: 80%;
+    padding: 2rem;
+  }
+
+  .tools .bot-work img{
+    width: 100%;
+  }
+}

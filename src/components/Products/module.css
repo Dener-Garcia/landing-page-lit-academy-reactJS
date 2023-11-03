@@ -50,3 +50,29 @@
 .products button{
   margin-top: 2.5rem; 
 }
+
+@media screen and (max-width: 960px) {
+  .products h2{
+    text-align: center;
+    font-size: var(--head3);
+    font-weight: 700;
+  }
+
+  .products p{
+    width: 100%;
+    font-size: var(--body2);
+  }
+
+  .backgroundBlur{
+    top: -34rem;
+    right: 10rem;
+  }
+
+  .products p{
+    text-align: start;
+  }
+
+  .cards{
+    flex-direction: column;
+  }
+}

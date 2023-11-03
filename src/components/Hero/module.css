@@ -40,3 +40,30 @@
   padding: 0 5rem;
 }
 
+@media screen and (max-width: 960px){
+  
+  .hero{
+    flex-direction: column-reverse;
+  }
+
+  .hero .titleHero h1,
+  .hero .titleHero span{
+    font-size: var(--head2);
+    font-weight: 700;
+  }
+
+  .hero img{
+    min-width: auto;
+    width: 80%;
+    margin-top: 2rem;
+    padding: 0rem 2rem;
+  }
+
+  .hero .titleHero p{
+    font-size: var(--body2);
+  }
+
+  button{
+    width: 100%;
+  }
+}

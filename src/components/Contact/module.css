@@ -63,6 +63,11 @@
   font-weight: 500;
   color: var(--neutral-09);
   background: none;
+  transition: 0.2s;
+}
+
+.contact form button:hover{
+  color: var(--background-accent);
 }
 
 .contact-info{
@@ -76,7 +81,6 @@
   border-radius: 0.5rem;
   background-color: var(--background-primary-aux);
   box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.25); 
-  
 }
 
 .contact-info h4{
@@ -92,4 +96,37 @@
 
 .contact-info button{
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+
+  .contact{
+    flex-direction: column-reverse;
+  }
+
+  .contact .form-div{
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 0;
+
+  }
+
+  .contact form{
+    padding: 2rem 2rem;
+  }
+
+  .contact form .field{
+    width: 100%;
+  }
+
+  .contact-info{
+    margin-left: 0;
+    padding: 2rem;
+  }
+
+  .contact form button{
+    width: 50%;
+    text-align: start;  
+  }
+  
 }

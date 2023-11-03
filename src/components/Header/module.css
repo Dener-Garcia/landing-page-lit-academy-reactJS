@@ -13,3 +13,9 @@
   display: flex;
   gap: 1.125rem;
 }
+
+@media screen and (max-width: 960px) {
+  .header{
+    display: none;
+  }
+}
