@@ -5,6 +5,7 @@ import Products from './components/Products/Products';
 import Tools from './components/Tools/Tools';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Tools />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   );
 }

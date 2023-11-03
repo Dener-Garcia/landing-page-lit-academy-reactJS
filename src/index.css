@@ -12,15 +12,17 @@
 
     --neutral-09: #f4f4f5;
     --neutral-08: #C9C9CF;
+    --neutral-07: #9E9EA8;
 
     --head1: 3.5rem;
     --head2: 2.5rem;   
     --head3: 2.25rem;     
     --head4: 1.5rem;
+    --head4: 1rem;
     --body1: 1.125rem;
 
     --grid-container: 90rem; 
-    --pad-container: 4rem 1rem;
+    --pad-container: 5rem 1rem;
     --pad-section: 0 10rem;
 }
 
