@@ -5,7 +5,7 @@ import ChatImg from '../../../public/assets/chat-example.png';
 
 const Tools = () => {
   return(
-    <section className="tools">
+    <section id="solutions" className="tools">
       <img className="bot-img" src={ServiceImg}/>
       <div className="bot-work" alt="Um robo com aparencia feminina e tres balões flutuando ao seu lado direito simulando uma conversa">
         <h3>Como a <span>Cute Bot</span> te ajuda</h3>

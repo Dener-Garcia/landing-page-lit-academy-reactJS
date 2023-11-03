@@ -20,7 +20,7 @@
     --head2: 2.5rem;   
     --head3: 2.25rem;     
     --head4: 1.5rem;
-    --head4: 1rem;
+    --head5: 1rem;
     --body1: 1.125rem;
 
     --grid-container: 90rem; 
@@ -33,9 +33,11 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;   
 }
 
 body{
     font-family: 'Inter', sans-serif;
-    background: var(--background-primary)
+    background: var(--background-primary);
+
 }

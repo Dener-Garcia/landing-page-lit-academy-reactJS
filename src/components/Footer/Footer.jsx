@@ -13,10 +13,12 @@ const Footer = () => {
       <footer>
         <img src={logoImg} alt="Logo da empresa ficticia Your Bots" />
         <nav className="nav-footer">
-          <LinksPage linkName="Produtos" />
-          <LinksPage linkName="Soluções" />
-          <LinksPage linkName="Clientes" />
-          <LinksPage linkName="Contato" />
+
+          <LinksPage linkName="Produtos" linkAnchor="#products" />
+          <LinksPage linkName="Soluções" linkAnchor="#solutions"/>
+          <LinksPage linkName="Clientes" linkAnchor="#customers"/>
+          <LinksPage linkName="Contato" linkAnchor="#contact" />
+
         </nav>
         <div className="social-icons">
           <a href="#" aria-label="Twitter" ><img src={xIcon} /> </a>

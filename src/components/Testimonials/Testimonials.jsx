@@ -26,7 +26,7 @@ const Testimonials = () => {
   }, []);
 
   return(
-    <section className="testimonials">
+    <section id="customers" className="testimonials">
       <h3>Nossos clientes</h3>
       <p>Veja o que dizem sobre nós e como nossos bots tem ajudado nossos clientes.</p>
       <div className="testimonyCards">

@@ -18,7 +18,7 @@ const Contact = () => {
 
 
   return(
-    <section className="contact">
+    <section id="contact" className="contact">
 
       <div className="backgroundBlur2"></div>
       <div className="form-div">

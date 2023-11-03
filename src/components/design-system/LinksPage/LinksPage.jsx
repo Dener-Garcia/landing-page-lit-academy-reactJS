@@ -3,10 +3,10 @@ import './module.css';
 
 const LinksPage = (props) => {
 
-  const {linkName} = props;
+  const {linkName, linkAnchor} = props;
 
   return(
-    <a href="#" className="linkPrimary">{linkName}</a>
+    <a href={linkAnchor} className="linkPrimary">{linkName}</a>
   );
 };
 

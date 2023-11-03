@@ -7,10 +7,12 @@ const Header = () =>{
   return(
     <header className="header">
       <div className="links">
-        <LinksPage linkName="Produtos" />
-        <LinksPage linkName="Soluções"/>
-        <LinksPage linkName="Clientes" />
-        <LinksPage linkName="Contato" />
+        <nav>
+          <LinksPage linkName="Produtos" linkAnchor="#products" />
+          <LinksPage linkName="Soluções" linkAnchor="#solutions"/>
+          <LinksPage linkName="Clientes" linkAnchor="#customers"/>
+          <LinksPage linkName="Contato" linkAnchor="#contact" />
+        </nav>
       </div>
       <ButtonPrimary btnTitle="Criar conta" />
     </header>
