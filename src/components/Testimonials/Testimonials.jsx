@@ -13,7 +13,7 @@ const Testimonials = () => {
         setDataTestimony(res);
       })
       .catch((err) =>{
-        console.error('erro ao recebener dados', err);
+        console.error('erro ao receber dados', err);
       });
 
     // exemplo com try e catch
