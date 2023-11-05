@@ -29,7 +29,7 @@ const Testimonials = () => {
     <section id="customers" className="testimonials">
       <h3>Nossos clientes</h3>
       <p>Veja o que dizem sobre nós e como nossos bots tem ajudado nossos clientes.</p>
-      <div className="testimonyCards">
+      <div className="testimonyCards myScroll scrollMozilla">
         {
           dataTestimony.map((data, i) => 
             <TestimonialsCard 
