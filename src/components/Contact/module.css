@@ -104,6 +104,11 @@
     flex-direction: column-reverse;
   }
 
+  .backgroundBlur2{
+    top: -20rem;
+    left: -15rem;
+  }
+
   .contact .form-div{
     width: 100%;
     padding: 1rem 0;

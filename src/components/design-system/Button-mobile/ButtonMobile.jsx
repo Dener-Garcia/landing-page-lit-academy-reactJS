@@ -28,28 +28,31 @@ const ButtonMobile = () => {
           <span></span>
           <span></span>
         </button>
-        <aside className={showMenu ? 'active-menu' : ''}>
-          <nav>
-
-            <div className="click-link" onClick={menuIsOff}>
-              <LinksPage linkName="Produtos" linkAnchor="#products" />
-            </div>
-
-            <div className="click-link" onClick={menuIsOff}>
-              <LinksPage linkName="Soluções" linkAnchor="#solutions" />
-            </div>
-
-            <div className="click-link" onClick={menuIsOff}>
-              <LinksPage linkName="Clientes" linkAnchor="#customers" />
-            </div>
-
-            <div className="click-link" onClick={menuIsOff}>
-              <LinksPage linkName="Contato" linkAnchor="#contact" />
-            </div>
-
-          </nav>
-        </aside>
+        
       </div>
+
+      <aside className={showMenu ? 'active-menu' : ''}>
+        <nav>
+
+          <div className="click-link" onClick={menuIsOff}>
+            <LinksPage linkName="Produtos" linkAnchor="#products" />
+          </div>
+
+          <div className="click-link" onClick={menuIsOff}>
+            <LinksPage linkName="Soluções" linkAnchor="#solutions" />
+          </div>
+
+          <div className="click-link" onClick={menuIsOff}>
+            <LinksPage linkName="Clientes" linkAnchor="#customers" />
+          </div>
+
+          <div className="click-link" onClick={menuIsOff}>
+            <LinksPage linkName="Contato" linkAnchor="#contact" />
+          </div>
+
+        </nav>
+
+      </aside>
     </>
   );
 };

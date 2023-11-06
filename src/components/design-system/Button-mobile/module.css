@@ -8,8 +8,6 @@
   background: rgba( 26, 26, 35, 0.45 );
   box-shadow: 0 8px 32px 0 rgba(188, 48, 181, 0.2);
   backdrop-filter: blur( 2rem );
-  overflow: hidden;
-  border: solid 3px white;
 }
 
 .mbl-header img{
@@ -36,7 +34,7 @@
   background: var(--gradient-primary);
 }
 
-.mbl-header aside{
+aside{
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -46,7 +44,7 @@
   transition: 0.2s;
 }
 
-.mbl-header aside nav{
+aside nav{
   width: 100%;
   height: 100%;
   display: flex;
