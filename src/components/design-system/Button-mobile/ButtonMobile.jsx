@@ -20,9 +20,9 @@ const ButtonMobile = () => {
     <>
       <div className="mbl-header">
 
-        <img src={logoImg} />
+        <img src={logoImg} alt='alt="Logo da empresa ficticia Your Bots' />
 
-        <button className="show-menu-mbl"
+        <button className="show-menu-mbl" aria-label="Menu"
           onClick={menuIsActive}>
           <span></span>
           <span></span>

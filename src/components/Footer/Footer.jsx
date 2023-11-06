@@ -21,9 +21,9 @@ const Footer = () => {
 
         </nav>
         <div className="social-icons">
-          <a href="https://www.linkedin.com/in/denergarcia/" aria-label="Linkedin" target="_blank" rel="noreferrer"><img src={linkedinIcon} /> </a>
-          <a href="#" aria-label="Twitter" ><img src={xIcon} /> </a>
-          <a href="#" aria-label="Whatsapp"><img src={zapIcon} /> </a>
+          <a href="https://www.linkedin.com/in/denergarcia/" aria-label="Linkedin" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="icone linkedin" /> </a>
+          <a href="#" aria-label="Twitter" ><img src={xIcon} alt="icone do twitter" /> </a>
+          <a href="#" aria-label="Whatsapp"><img src={zapIcon} alt="icone do whatsapp" /> </a>
         </div>
       </footer>
       <div className="made-for">

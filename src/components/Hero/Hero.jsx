@@ -11,7 +11,7 @@ const Hero = () =>{
         <p>Mudar o mundo otimizando o tempo das pessoas através da inteligência artificial. Com honestidade e transparência oferecemos a mais alta tecnologia em bots de conversação.</p>
         <ButtonPrimary btnTitle="Quero testar grátis"/>
       </div>
-      <img src={heroImg} />
+      <img src={heroImg} alt="Robo saindo do celular com caixas de conversas simulando alta interatividade"/>
     </section>
   );
 };
