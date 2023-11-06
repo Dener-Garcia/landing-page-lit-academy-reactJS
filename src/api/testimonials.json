@@ -1,62 +1,62 @@
 {
   "testimonials": [
     {
-      "avatar": "/public/assets/gusttavo-matias.png",
+      "avatar": "/src/assets/gusttavo-matias.png",
       "name": "Gusttavo Matias",
       "testimony": "Com a Cute Bot minhas vendas subiram 38%."
     },
     {
-      "avatar": "/public/assets/pablo-faustino.png",
+      "avatar": "/src/assets/pablo-faustino.png",
       "name": "Pablo Faustino",
       "testimony": "Dobrei meu engajamento nas plataformas de streaming."
     },
     {
-      "avatar": "/public/assets/leia-pastana.png",
+      "avatar": "/src/assets/leia-pastana.png",
       "name": "Leia Pastana",
       "testimony": "Agora cosigo responder minhas seguidoras muito mais rapido."
     },
     {
-      "avatar": "/public/assets/kelvin.png",
+      "avatar": "/src/assets/kelvin.png",
       "name": "Kelvin Félix",
       "testimony": "Com a Cute Bot minhas vendas subiram 38%."
     },
     {
-      "avatar": "/public/assets/gusttavo-matias.png",
+      "avatar": "/src/assets/gusttavo-matias.png",
       "name": "Miria Bogado",
       "testimony": "Achei muito simples treinar o bot, com poucas perguntas ele já responde adequadamente."
     },
     {
-      "avatar": "/public/assets/rafael-peres.png",
+      "avatar": "/src/assets/rafael-peres.png",
       "name": "Rafael Peres",
       "testimony": "O abandono de carrinho da minha loja diminuiu pela metade."
     },
     {
-      "avatar": "/public/assets/maria-sardo.png",
+      "avatar": "/src/assets/maria-sardo.png",
       "name": "Maria Sardo",
       "testimony": "A plataforma da A.I Bots é muito simples de configurar."
     },
     {
-      "avatar": "/public/assets/luiza-borges.png",
+      "avatar": "/src/assets/luiza-borges.png",
       "name": "Luíza Lages",
       "testimony": "Minhas ligações de SAC cairam drasticamente com a ajuda da minha Cute Bot"
     },
     {
-      "avatar": "/public/assets/flavia-bentes.png",
+      "avatar": "/src/assets/flavia-bentes.png",
       "name": "Flávia Bentes",
       "testimony": "Meus clientes realmente pensam que sou eu no chat."
     },
     {
-      "avatar": "/public/assets/faro-sarmento.png",
+      "avatar": "/src/assets/faro-sarmento.png",
       "name": "Faro Sarmento",
       "testimony": "Achei muito interessante a forma de treinar o Bot, basta responder algumas perguntas e pronto."
     },
     {
-      "avatar": "/public/assets/silmara-nobre.png",
+      "avatar": "/src/assets/silmara-nobre.png",
       "name": "Silmara Nobre",
       "testimony": "O valor mensal é muito em conta comparado ao beneficio."
     } ,
     {
-      "avatar": "/public/assets/eduardo-lemes.png",
+      "avatar": "/src/assets/eduardo-lemes.png",
       "name": "Eduardo Lemes",
       "testimony": "A integração é muito rápida com poucos cliques meu Bot estava pronto."
     } 

@@ -11,6 +11,7 @@ const Testimonials = () => {
     fetchTestimonials()
       .then((res) => {
         setDataTestimony(res);
+        console.log(res);
       })
       .catch((err) =>{
         console.error('erro ao receber dados', err);

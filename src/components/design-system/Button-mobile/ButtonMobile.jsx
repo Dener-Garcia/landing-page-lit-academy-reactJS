@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './module.css';
-import logoImg from '../../../../public/assets/logo.png';
+import logoImg from '../../../assets/logo.png';
 import LinksPage from '../LinksPage/LinksPage';
 
 const ButtonMobile = () => {
