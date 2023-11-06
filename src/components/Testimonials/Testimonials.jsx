@@ -8,19 +8,19 @@ const Testimonials = () => {
   const [dataTestimony, setDataTestimony] = useState([]);
 
   useEffect(() => {
-    fetchTestimonials()
-      .then((res) => {
-        setDataTestimony(res);
-        console.log(res);
-      })
+    fetchTestimonials().then((res) => {
+      setDataTestimony(res);
+      console.log(res);
+    })
       .catch((err) =>{
         console.error('erro ao receber dados', err);
       });
 
-    // exemplo com try e catch
+    // //exemplo com try e catch
     // const data = fetchTestimonials();
     // try {
     //   console.log('dentro try',data);
+    //   setDataTestimony(data);
     // } catch (error) {
     //   console.error('Erro ao buscar testemunhos', error);
     // }
