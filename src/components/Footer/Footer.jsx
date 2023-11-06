@@ -1,9 +1,9 @@
 import React from 'react';
 import './module.css';
-import logoImg from '../../assets/logo.png';
-import xIcon from '../..//assets/x.png';
-import zapIcon from '../../assets/zap.png';
-import linkedinIcon from '../../assets/linkedin.png';
+import logoImg from '../../../public/assets/logo.png';
+import xIcon from '../../../public/assets/x.png';
+import zapIcon from '../../../public/assets/zap.png';
+import linkedinIcon from '../../../public/assets/linkedin.png';
 import LinksPage from '../design-system/LinksPage/LinksPage';
 
 
@@ -21,9 +21,9 @@ const Footer = () => {
 
         </nav>
         <div className="social-icons">
+          <a href="https://www.linkedin.com/in/denergarcia/" aria-label="Linkedin" target="_blank" rel="noreferrer"><img src={linkedinIcon} /> </a>
           <a href="#" aria-label="Twitter" ><img src={xIcon} /> </a>
           <a href="#" aria-label="Whatsapp"><img src={zapIcon} /> </a>
-          <a href="https://www.linkedin.com/in/denergarcia/" aria-label="Linkedin" target="_blank" rel="noreferrer"><img src={linkedinIcon} /> </a>
         </div>
       </footer>
       <div className="made-for">

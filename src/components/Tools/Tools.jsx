@@ -1,7 +1,7 @@
 import React from 'react';
 import './module.css';
-import ServiceImg from '../../assets/ballon.png';
-import ChatImg from '../../assets/chat-example.png';
+import ServiceImg from '../../../public/assets/ballon.png';
+import ChatImg from '../../../public/assets/chat-example.png';
 
 const Tools = () => {
   return(
