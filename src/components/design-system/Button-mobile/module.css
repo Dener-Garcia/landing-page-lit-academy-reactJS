@@ -1,5 +1,5 @@
 .mbl-header{
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +40,7 @@ aside{
   position: fixed;
   background-color: var(--background-primary-aux);
   z-index: 5;
-  transform: translateX(150%);
+  transform: translateX(100%);
   transition: 0.2s;
 }
 
