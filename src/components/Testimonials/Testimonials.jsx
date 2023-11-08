@@ -6,10 +6,12 @@ import TestimonialsCard from '../design-system/TestimonialsCard/TestimonialsCard
 const Testimonials = () => {
 
   const [dataTestimony, setDataTestimony] = useState([]);
+  
 
   useEffect(() => {
     fetchTestimonials().then((res) => {
       setDataTestimony(res);
+      console.log(dataTestimony);
     })
       .catch((err) =>{
         console.error('erro ao receber dados', err);
@@ -24,8 +26,6 @@ const Testimonials = () => {
     //   console.error('Erro ao buscar testemunhos', error);
     // }
   }, []);
-
-  console.log(dataTestimony.length);
 
   return(
     <section id="customers" className="testimonials">
