@@ -1,9 +1,9 @@
 import React from 'react';
 import './module.css';
-import logoImg from '../../../public/assets/logo.png';
-import xIcon from '../../../public/assets/x.png';
-import zapIcon from '../../../public/assets/zap.png';
-import linkedinIcon from '../../../public/assets/linkedin.png';
+import logoImg from '../../../public/assets/logo.opti.webp';
+import xIcon from '../../../public/assets/x.opti.webp';
+import zapIcon from '../../../public/assets/zap.opti.webp';
+import linkedinIcon from '../../../public/assets/linkedin.opti.webp';
 import LinksPage from '../design-system/LinksPage/LinksPage';
 
 

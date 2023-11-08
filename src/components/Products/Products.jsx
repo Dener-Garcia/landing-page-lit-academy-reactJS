@@ -1,10 +1,10 @@
 import React from 'react';
 import './module.css';
 import ProductCard from '../design-system/ProductCard/ProductCard';
-import imgCard1 from '../../../public/assets/escolha-bot.png';
-import imgCard2 from '../../../public/assets/treine-seu-bot.png';
-import imgCard3 from '../../../public/assets/integracao.png';
-import imgCard4 from '../../../public/assets/usando-bot.png';
+import imgCard1 from '../../../public/assets/escolha-bot.opti.webp';
+import imgCard2 from '../../../public/assets/treine-seu-bot.opti.webp';
+import imgCard3 from '../../../public/assets/integracao.opti.webp';
+import imgCard4 from '../../../public/assets/usando-bot.opti.webp';
 import ButtonPrimary from '../design-system/Button-primary/ButtonPrimary';
 
 const Products = () =>{

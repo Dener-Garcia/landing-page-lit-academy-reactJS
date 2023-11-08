@@ -1,7 +1,7 @@
 import React from 'react';
 import './module.css';
 import ButtonPrimary from '../design-system/Button-primary/ButtonPrimary';
-import heroImg from '../../../public/assets/hero-img.png';
+import heroImg from '../../../public/assets/hero-img.opti.webp';
 
 const Hero = () =>{
   return(
