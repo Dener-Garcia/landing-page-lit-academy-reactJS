@@ -29,6 +29,13 @@ footer{
 
 .footer-section .social-icons a{
   text-decoration: none;
+  filter: grayscale(1);
+  transition: 0.2s;
+}
+
+.footer-section .social-icons a:hover{
+  filter: grayscale(0);
+  transform: scale(1.1)
 }
 
 .footer-section .made-for{

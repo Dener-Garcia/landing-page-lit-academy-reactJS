@@ -63,6 +63,7 @@
   font-weight: 500;
   color: var(--neutral-09);
   background: none;
+  cursor: pointer;
   transition: 0.2s;
 }
 

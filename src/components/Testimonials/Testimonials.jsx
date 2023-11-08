@@ -10,7 +10,6 @@ const Testimonials = () => {
   useEffect(() => {
     fetchTestimonials().then((res) => {
       setDataTestimony(res);
-      console.log(res);
     })
       .catch((err) =>{
         console.error('erro ao receber dados', err);
@@ -25,6 +24,8 @@ const Testimonials = () => {
     //   console.error('Erro ao buscar testemunhos', error);
     // }
   }, []);
+
+  console.log(dataTestimony.length);
 
   return(
     <section id="customers" className="testimonials">
