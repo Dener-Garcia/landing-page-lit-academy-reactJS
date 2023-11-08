@@ -11,7 +11,6 @@ const Testimonials = () => {
   useEffect(() => {
     fetchTestimonials().then((res) => {
       setDataTestimony(res);
-      console.log(dataTestimony);
     })
       .catch((err) =>{
         console.error('erro ao receber dados', err);
